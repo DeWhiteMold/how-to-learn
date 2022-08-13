@@ -30,15 +30,6 @@
   z-index: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-
 .header__title {
   width: 720px;
   left: 64px;
@@ -81,16 +72,6 @@
   height: 608px;
   object-fit: cover;
   z-index: 2;
-}
-
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  position: absolute;
-  right: 0;
-  top: 64px;
-  background-color: #2f80ed;
-  z-index: 0;
 }
 
 .header__logo {
@@ -220,7 +201,6 @@
   margin: 0 auto 100px;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0;
   padding: 0;
 }
 
@@ -325,6 +305,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
@@ -344,13 +325,14 @@
   margin: 0 auto 100px;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0;
   padding: 0;
   z-index: 1;
 }
 
 .table__cell_theme_dark {
   width: 200px;
+  color: white;
+  margin-right: 0;
   margin-top: 80px;
 }
 
